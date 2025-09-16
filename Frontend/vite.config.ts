@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
-    plugins: [react()],
-    server: {
-        open: true
-    }
-})
+export default defineConfig(({ mode }) => ({
+  plugins: [react()],
+  server: { open: true },                // dev opens at /
+  base: mode === 'production' ? '/REPO_NAME/' : '/',  // <- key line
+  build: { outDir: 'docs' }              // Pages will serve from /docs
+}))
