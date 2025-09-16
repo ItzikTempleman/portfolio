@@ -2,8 +2,9 @@
     height: 100vh;
     box-sizing: border-box;
     display: grid;
-    grid-template-rows: minmax(80px, 8%) 1fr minmax(40px, 4%);
+    grid-template-rows: minmax(80px, 8%) 1fr minmax(45px, 5%);
     grid-template-columns: 1fr;
+    background-color: #b5b5b5;
 }
 
 .MainLayout>* {
@@ -12,6 +13,7 @@
 
 header,
 footer {
+    background-color: white;
     grid-column: span 2;
 }
 
