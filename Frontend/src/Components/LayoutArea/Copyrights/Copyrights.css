@@ -1,0 +1,19 @@
+.Copyrights {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.lin {
+    width: auto;
+    height: 30px;
+border-radius: 100px;
+}
+.git {
+    width: auto;
+    height: 48px;
+border-radius: 100px;
+}
