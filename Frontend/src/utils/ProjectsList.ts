@@ -27,6 +27,13 @@ class ProjectList {
             "/assets/crypto.png",
             "https://github.com/ItzikTempleman/Crypto"
         ),
+        new Project(
+            4,
+            "Notes",
+            "A nicely organized note tracking app with functionalities of saving, editing and deleting and font changing. Enjoy",
+            "/assets/notes.png",
+            "https://github.com/ItzikTempleman/note-tracker"
+        ),
     ];
 }
 
