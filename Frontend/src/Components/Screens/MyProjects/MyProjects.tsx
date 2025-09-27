@@ -10,7 +10,7 @@ export function MyProjects() {
 
     const [list, setProjects] = useState<Project[]>(projectList.projects);
     useEffect(() => {
- //localStorage.clear();
+ localStorage.clear();
         const saved = localStorage.getItem("list");
         if (saved) {
             const parsed = JSON.parse(saved) as Project[];
