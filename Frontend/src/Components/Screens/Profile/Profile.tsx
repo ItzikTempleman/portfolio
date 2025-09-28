@@ -6,6 +6,7 @@ export default function Profile() {
      
    
         <div className="profile-image">
+         
   <img src="assets/images/profile.jpg"/>
         </div>
 
