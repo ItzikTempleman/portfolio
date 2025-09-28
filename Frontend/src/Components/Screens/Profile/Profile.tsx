@@ -1,4 +1,6 @@
 import "./Profile.css";
+import { asset } from "../../../utils/asset";
+
 
 export default function Profile() {
   return (
@@ -7,7 +9,7 @@ export default function Profile() {
    
         <div className="profile-image">
          
-  <img src="assets/images/profile.jpg"/>
+  <img src={asset("assets/images/profile.jpg")} />
         </div>
 
         <div className="profile-text">

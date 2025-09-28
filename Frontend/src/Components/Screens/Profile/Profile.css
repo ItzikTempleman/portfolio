@@ -46,11 +46,11 @@ margin-top: 20px;
 
 @media (max-width: 1000px) {
   .Profile {
-    height: auto;            /* allow content height */
+    height: auto;           
     padding: 0 12px;
   }
 
-  .profile-image img { width: 140px; height: 140px; }
-  .profile-text { max-width: 100%; }
+  .profile-image img { width: 130px; height: 140px; }
+  .profile-text { max-width: 95%; }
   .profile-text p { margin-bottom: 16px; }
 }

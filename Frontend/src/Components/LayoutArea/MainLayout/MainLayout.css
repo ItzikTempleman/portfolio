@@ -4,7 +4,7 @@
     display: grid;
     grid-template-rows: minmax(60px, 7%);
     grid-template-columns: 1fr;
-    background-color: #b5b5b5;
+    background-color: #e8e5e5;
 }
 
 .MainLayout>* {
@@ -23,16 +23,10 @@ main {
 
 
 
-
-
-
-
-
-
 @media (max-width: 1000px) {
   .MainLayout {
-    grid-template-rows: auto 1fr;   /* header auto, content fills */
+    grid-template-rows: auto 1fr;  
   }
   header { margin: 0; padding: 6px 8px; }
-  main   { padding: 8px; }          /* room around the list */
+  main   { padding: 8px; }        
 }
