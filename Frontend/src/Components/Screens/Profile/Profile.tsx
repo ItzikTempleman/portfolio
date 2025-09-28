@@ -6,7 +6,7 @@ export default function Profile() {
      
    
         <div className="profile-image">
-  <img src={`${import.meta.env.BASE_URL}assets/profile.jpg`} alt="Profile" />
+  <img src="assets/images/profile.jpg"/>
         </div>
 
         <div className="profile-text">

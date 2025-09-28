@@ -2,7 +2,7 @@
     height: 100vh;
     box-sizing: border-box;
     display: grid;
-    grid-template-rows: minmax(80px, 8%) 1fr minmax(45px, 5%);
+    grid-template-rows: minmax(60px, 7%);
     grid-template-columns: 1fr;
     background-color: #b5b5b5;
 }
@@ -11,17 +11,11 @@
     font-family: Arial;
 }
 
-header,
-footer {
-    background-color: white;
-    grid-column: span 2;
-}
 
 header {
+     grid-column: span 2;
     padding: 8px;
     margin: 8px;
-    border-radius: 8px;
-    box-shadow: 0.5px 1px 1px 1px #4d4d4d;
 }
 
 main {
