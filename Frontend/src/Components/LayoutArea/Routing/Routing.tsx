@@ -4,11 +4,11 @@ import Profile from "../../Screens/Profile/Profile";
 
 export function Routing() {
   return (
-    <Routes>
-      <Route index element={<Navigate to="home" replace />} />
-      <Route path="home" element={<Home />} />
-      <Route path="profile" element={<Profile />} />
-      <Route path="*" element={<Navigate to="home" replace />} />
-    </Routes>
+<Routes>
+  <Route index element={<Navigate to="/home" replace />} />
+  <Route path="/home" element={<Home />} />
+  <Route path="/profile" element={<Profile />} />
+  <Route path="*" element={<Navigate to="/home" replace />} />
+</Routes>
   );
 }
