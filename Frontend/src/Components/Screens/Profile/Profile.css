@@ -34,3 +34,23 @@ margin-top: 20px;
 .profile-text strong {
   color: #333;
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  .Profile {
+    height: auto;            /* allow content height */
+    padding: 0 12px;
+  }
+
+  .profile-image img { width: 140px; height: 140px; }
+  .profile-text { max-width: 100%; }
+  .profile-text p { margin-bottom: 16px; }
+}
