@@ -19,7 +19,7 @@ class ProjectList {
             "and backend\n - admins can manage ta vacation fully" +
             "(add, edit, remove and view like charts per destination by users)\n" +
             "while regular users can view and like or unlike vacations)",
-            asset("assets/images/vacations-site-image.png"),
+          asset("assets/images/vacations-site-image.png"),
             "https://github.com/ItzikTempleman/vacations"
         ),
         new Project(
