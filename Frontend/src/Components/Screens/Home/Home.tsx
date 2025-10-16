@@ -33,7 +33,6 @@ export function Home() {
     return (
         
         <div className="Home">
-            <h1>Portfolio</h1>
             {
                 list.map(item =>
                     <ProjectCard key={item.id} project={item} />
