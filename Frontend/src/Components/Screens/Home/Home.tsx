@@ -11,6 +11,7 @@ export function Home() {
     useEffect(
         () => {
             localStorage.clear();
+
             const saved = localStorage.getItem("list");
             if (saved) {
                 const parsed = JSON.parse(saved) as Project[];
@@ -30,7 +31,9 @@ export function Home() {
     );
 
     return (
+        
         <div className="Home">
+            <h1>Portfolio</h1>
             {
                 list.map(item =>
                     <ProjectCard key={item.id} project={item} />
