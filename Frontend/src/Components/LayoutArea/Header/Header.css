@@ -47,14 +47,6 @@
     border-radius: 100px;
 }
 
-
-
-
-
-
-
-
-
 @media (max-width: 1000px) {
   .Header {
     flex-direction: column;

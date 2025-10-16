@@ -22,7 +22,6 @@ main {
 }
 
 
-
 @media (max-width: 1000px) {
   .MainLayout {
     grid-template-rows: auto 1fr;  
