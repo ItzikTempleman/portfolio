@@ -7,7 +7,7 @@ class ProjectList {
         new Project(
             1,
             "AI recipe generator",
-            "generates recipes from a prompt precisely and beautifully. supports all languages"+
+            "generates recipes from a prompt precisely and beautifully. supports all languages. "+
              "api key available upon request only (it costs me money)",
             asset("assets/images/recipes.png"),
             "https://github.com/ItzikTempleman/Ai-Recipes"
